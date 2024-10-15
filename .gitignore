@@ -1,0 +1,92 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]ogs/
+[Aa]ssets/
+
+# Ignore specific build outputs for Debug configuration
+bin/Debug/net8.0/*.dll
+bin/Debug/net8.0/*.exe
+bin/Debug/net8.0/*.pdb
+
+obj/Debug/net8.0/*.AssemblyInfo.cs
+obj/Debug/net8.0/*.AssemblyInfoInputs.cache
+obj/Debug/net8.0/*.GeneratedMSBuildEditorConfig.editorconfig
+obj/Debug/net8.0/*.assets.cache
+obj/Debug/net8.0/*.dll
+obj/Debug/net8.0/*.pdb
+obj/Debug/net8.0/*.sourcelink.json
+obj/Debug/net8.0/*.exe
+obj/Debug/net8.0/ref/*.dll
+obj/Debug/net8.0/refint/*.dll
+
+# Visual Studio temporary files
+*.vs
+*.vscode
+*.suo
+*.user
+*.userprefs
+*.sln.ide
+*.sln.docstates
+*.sln.vspscc
+*.sln.vssscc
+
+# Rider
+.idea/
+*.sln.iml
+
+# Rider's user-specific files
+*.DotSettings.user
+
+# Visual Studio Code
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# NuGet Packages
+*.nupkg
+packages/
+*.snupkg
+
+# JetBrains Rider files
+.idea/
+
+# Visual Studio Code files
+.vscode/
+
+# Build files
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.idb
+*.ilk
+*.log
+
+# Others
+*.cache
+*.tmp
+*.temp
+*.zip
+*.rar
+
+# Coverage results
+*.coverage
+*.coveragexml
+
+# Test results
+TestResults/
+*.trx
+
+# Local history for JetBrains IDEs
+.localhistory/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]eShaper
+*.DotSettings.user
+
+# Publish results
+publish/

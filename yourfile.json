@@ -1,11 +1,7 @@
-
 {
-    "id": 0,
-    "isHumanoid": false,
-    "planet": "Kashyyyk",
-    "age": 253,
-    "traits": [
-      "HAIRY",
-      "TALL"
-    ]
+  "Id": 0,
+  "IsHuman": true,
+  "Planet": "Earth",
+  "Age": 19,
+  "Traits": ["HAIRY", "CURLY"]
 }
