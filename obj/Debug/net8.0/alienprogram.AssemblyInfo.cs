@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("alienprogram")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c881de8cca544367de6d5c9f520c9db4f0ee4793")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f0e27ad980abdf97011768dccce86fd8d2f725e")]
 [assembly: System.Reflection.AssemblyProductAttribute("alienprogram")]
 [assembly: System.Reflection.AssemblyTitleAttribute("alienprogram")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

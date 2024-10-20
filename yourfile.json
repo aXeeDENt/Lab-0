@@ -1,7 +1,19 @@
-{
-  "Id": 0,
-  "IsHuman": true,
-  "Planet": "Earth",
-  "Age": 19,
-  "Traits": ["HAIRY", "CURLY"]
-}
+[
+  {
+    "Id": 0,
+    "IsHuman": true,
+    "Age": 19,
+    "Traits": ["HAIRY", "CURLY"]
+  },
+  {
+    "Id": 1,
+    "IsHuman": false,
+    "Planet": "Asgard"
+  },
+  {
+    "Id": 2,
+    "Planet": "Mirium",
+    "Age": 5003,
+    "Traits": ["TALL"]
+  }
+]

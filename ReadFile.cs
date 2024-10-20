@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 
@@ -16,25 +17,34 @@ class FileReader
         try
         {
             string jsonString = File.ReadAllText(filePath);
-            AlienClass? alien = JsonSerializer.Deserialize<AlienClass>(jsonString);
+            List<AlienClass>? aliens = JsonSerializer.Deserialize<List<AlienClass>>(jsonString);
+            /*foreach (var alien in aliens)
+        {
+            if (alien.IsHuman != null) {Console.WriteLine($"Is Human: {alien.IsHuman}");}
+            if (alien.Planet != null) {Console.WriteLine($"Planet: {alien.Planet}");}
+            if (alien.Age != null) {Console.WriteLine($"Age: {alien.Age}");}
+            
+            if (alien.Traits != null){
+            Console.WriteLine("Traits: ");
+            foreach (var trait in alien.Traits)
+            {
+                Console.Write($"{trait} ");
+            }
+            Console.WriteLine();
+            }
+            Console.WriteLine();
+        }*/
+        string jsonString2 = JsonSerializer.Serialize(aliens, new JsonSerializerOptions { WriteIndented = true });
+        string filePath2 = "tested.json";
 
-            if (alien != null)
-            {
-                Console.WriteLine($"ID: {alien.Id}");
-                Console.WriteLine($"IsHuman: {alien.IsHuman}");
-                Console.WriteLine($"Planet: {alien.Planet}");
-                Console.WriteLine($"Age: {alien.Age}");
-                Console.WriteLine($"Traits: {string.Join(", ", alien.Traits)}");
-            }
-            else
-            {
-                Console.WriteLine("Alien data could not be deserialized.");
-            }
+        File.WriteAllText(filePath2, jsonString2);
+
+        Console.WriteLine($"Data written to {filePath2}");
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Error reading file: {ex.Message}");
         }
-    }
+        }   
 }
 }
