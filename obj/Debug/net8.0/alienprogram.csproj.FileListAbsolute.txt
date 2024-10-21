@@ -1,12 +1,13 @@
-C:\Users\user\Documents\MyCSharpProjects\OOP_Labs\Lab_0\obj\Debug\net8.0\alienprogram.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\user\Documents\MyCSharpProjects\OOP_Labs\Lab_0\obj\Debug\net8.0\alienprogram.AssemblyInfoInputs.cache
-C:\Users\user\Documents\MyCSharpProjects\OOP_Labs\Lab_0\obj\Debug\net8.0\alienprogram.AssemblyInfo.cs
-C:\Users\user\Documents\MyCSharpProjects\OOP_Labs\Lab_0\obj\Debug\net8.0\alienprogram.csproj.CoreCompileInputs.cache
 C:\Users\user\Documents\MyCSharpProjects\OOP_Labs\Lab_0\bin\Debug\net8.0\alienprogram.exe
 C:\Users\user\Documents\MyCSharpProjects\OOP_Labs\Lab_0\bin\Debug\net8.0\alienprogram.deps.json
 C:\Users\user\Documents\MyCSharpProjects\OOP_Labs\Lab_0\bin\Debug\net8.0\alienprogram.runtimeconfig.json
 C:\Users\user\Documents\MyCSharpProjects\OOP_Labs\Lab_0\bin\Debug\net8.0\alienprogram.dll
 C:\Users\user\Documents\MyCSharpProjects\OOP_Labs\Lab_0\bin\Debug\net8.0\alienprogram.pdb
+C:\Users\user\Documents\MyCSharpProjects\OOP_Labs\Lab_0\obj\Debug\net8.0\alienprogram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\MyCSharpProjects\OOP_Labs\Lab_0\obj\Debug\net8.0\alienprogram.AssemblyInfoInputs.cache
+C:\Users\user\Documents\MyCSharpProjects\OOP_Labs\Lab_0\obj\Debug\net8.0\alienprogram.AssemblyInfo.cs
+C:\Users\user\Documents\MyCSharpProjects\OOP_Labs\Lab_0\obj\Debug\net8.0\alienprogram.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\MyCSharpProjects\OOP_Labs\Lab_0\obj\Debug\net8.0\alienprogram.sourcelink.json
 C:\Users\user\Documents\MyCSharpProjects\OOP_Labs\Lab_0\obj\Debug\net8.0\alienprogram.dll
 C:\Users\user\Documents\MyCSharpProjects\OOP_Labs\Lab_0\obj\Debug\net8.0\refint\alienprogram.dll
 C:\Users\user\Documents\MyCSharpProjects\OOP_Labs\Lab_0\obj\Debug\net8.0\alienprogram.pdb

@@ -1,0 +1,11 @@
+        public AlienClass() { }
+        public AlienClass(int id, bool isHuman, string planet, int age, List<string> traits)
+        {
+            Id = id;
+            IsHuman = isHuman;
+            Planet = planet;
+            Age = age;
+            Traits = traits;
+        }
+
+        

@@ -1,0 +1,83 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]ogs/
+[Aa]ssets/
+
+# Игнорировать все файлы в bin/Debug/net8.0
+bin/Debug/net8.0/*
+
+# Игнорировать все файлы в obj/Debug/net8.0
+obj/Debug/net8.0/*
+
+
+# Visual Studio temporary files
+*.vs
+*.vscode
+*.suo
+*.user
+*.userprefs
+*.sln.ide
+*.sln.docstates
+*.sln.vspscc
+*.sln.vssscc
+
+# Rider
+.idea/
+*.sln.iml
+
+# Rider's user-specific files
+*.DotSettings.user
+
+# Visual Studio Code
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# NuGet Packages
+*.nupkg
+packages/
+*.snupkg
+
+# JetBrains Rider files
+.idea/
+
+# Visual Studio Code files
+.vscode/
+
+# Build files
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.idb
+*.ilk
+*.log
+
+# Others
+*.cache
+*.tmp
+*.temp
+*.zip
+*.rar
+
+# Coverage results
+*.coverage
+*.coveragexml
+
+# Test results
+TestResults/
+*.trx
+
+# Local history for JetBrains IDEs
+.localhistory/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]eShaper
+*.DotSettings.user
+
+# Publish results
+publish/
